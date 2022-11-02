@@ -95,6 +95,10 @@ function newGame(){
         playGame = true;
     })
 }
+
+for (;;) {  // Noncompliant; end condition omitted
+    // ...
+  }
 //Allow to restart game with restart button
 //Change DIV to a form so it can accept the enter key
 

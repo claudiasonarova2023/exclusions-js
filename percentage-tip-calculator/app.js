@@ -24,3 +24,7 @@ calculate.addEventListener('click', function(){
     
 
 })
+
+for (;;) {  // Noncompliant; end condition omitted
+    // ...
+  }
