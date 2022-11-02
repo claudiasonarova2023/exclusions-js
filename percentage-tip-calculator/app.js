@@ -4,6 +4,11 @@ let tipAmount = document.getElementById('tip-amount');
 let total = document.getElementById('total');
 let calculate = document.getElementById('calculate');
 
+//add bug
+for (;;) {  // Noncompliant; end condition omitted
+    // ...
+  }
+
 calculate.addEventListener('click', function(){
     billAmount = Number(billAmount.value);
     percentTip = Number(percentTip.value);
