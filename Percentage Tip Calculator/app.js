@@ -3,7 +3,16 @@ let percentTip = document.getElementById('percentage-tip');
 let tipAmount = document.getElementById('tip-amount');
 let total = document.getElementById('total');
 let calculate = document.getElementById('calculate');
-let randomArray = [];
+
+// Add code to trigger analysis. Insert a bug.
+const height = parseInt(document.querySelector('#height').value);
+    const weight = parseInt(document.querySelector('#weight').value);
+    const results = document.querySelector('#results');
+    
+    if((height === '') || (height < 0) || (isNaN(height))){
+        //NaN !== NaN
+        results.innerHTML = "Please provide a valid height";
+    }
 
 calculate.addEventListener('click', function(){
     billAmount = Number(billAmount.value);
