@@ -1,8 +1,3 @@
-//add bug
-for (;;) {  // Noncompliant; end condition omitted
-    // ...
-  }
-
 //Generate a random number between 1 and 500
 let randomNumber = parseInt((Math.random()*100)+1);
 const submit = document.querySelector('#subt');
@@ -106,3 +101,8 @@ function newGame(){
 
 //NOTES:
 //NaN != NaN
+
+//add bug
+for (;;) {  // Noncompliant; end condition omitted
+    // ...
+  }
