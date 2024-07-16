@@ -1,3 +1,3 @@
 # exclusions-js
 
-Trigger analysis.
+Trigger new analysis.
